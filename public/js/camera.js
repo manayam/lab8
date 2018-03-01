@@ -40,6 +40,4 @@ function capture(video, canvas, snapshotButton) {
   //Register the success and error callbacks with getUserMedia.
   navigator.getUserMedia({ 'video': true },
       successCallback, errorCallback);
-
 };
-
